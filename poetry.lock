@@ -186,6 +186,20 @@ tests = ["attrs[tests-no-zope]", "zope-interface"]
 tests-no-zope = ["cloudpickle", "hypothesis", "mypy (>=1.1.1)", "pympler", "pytest (>=4.3.0)", "pytest-mypy-plugins", "pytest-xdist[psutil]"]
 
 [[package]]
+name = "birdy"
+version = "0.3.2"
+description = "birdy is a super awesome Twitter API client for Python."
+optional = false
+python-versions = "*"
+files = [
+    {file = "birdy-0.3.2.tar.gz", hash = "sha256:2ef73fb80714e10d67d46676a84416dd05c60e10dad407f051822fb83a6895e2"},
+]
+
+[package.dependencies]
+requests = ">=1.2.3"
+requests_oauthlib = ">=0.3.2"
+
+[[package]]
 name = "botocore"
 version = "1.31.64"
 description = "Low-level, data-driven core of boto 3."
@@ -1163,4 +1177,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "93ca483a4905b7834804c03dad1f12aae93e83ee3b38b27105381634ceb9fc6e"
+content-hash = "fcb6fa7241fa69ff43df5889870836be6df8b3cb9edc3e43bcf99ba2bd9b2106"
